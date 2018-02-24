@@ -9,7 +9,7 @@ public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherSe
 
     protected Class<?>[] getRootConfigClasses() {
         // This is used to specify the configurations classes in our application.
-        return new Class[]{Application.class};
+        return new Class[]{Application.class,JPAConfig.class};
     }
 
     protected Class<?>[] getServletConfigClasses() {
